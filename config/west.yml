@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: aviyn
+      url-base: https://github.com/aviyn
     - name: hitsmaxft
       url-base: https://github.com/hitsmaxft
     - name: englmaxi
@@ -21,10 +23,10 @@ manifest:
       remote: urob
       revision: main
       clone-depth: 1
-    #- name: zmk-rgbled-widget
-    #  remote: hitsmaxft
-    #  revision: main
-    #  clone-depth: 1
+    - name: zmk-rgbled-widget
+      remote: aviyn
+      revision: main
+      clone-depth: 1
     - name: zmk-dongle-display
       remote: englmaxi
       revision: main
