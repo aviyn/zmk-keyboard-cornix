@@ -274,7 +274,7 @@
     &trans        &trans        &trans        &trans        &trans        &trans           &trans &trans  &msc SCRL_LEFT &msc SCRL_DOWN &msc SCRL_UP &msc SCRL_RIGHT &trans     &trans
 // ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯  ╰─────┴─────╯  ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯
 // ╭─────────────┬─────────────┬─────────────╮  ╭─────────────┬─────────────┬─────────────╮           ╭─────────────┬─────────────┬─────────────╮  ╭─────────────┬─────────────┬─────────────╮
-    &trans        &trans        &trans           &trans        &trans        &mkp MCLK                 &&mkp LCLK    &mkp RCLK     &tog MOUSE       &mo MS_FAST   &mo MS_SLOW   &trans
+    &trans        &trans        &trans           &trans        &trans        &mkp MCLK                 &mkp LCLK    &mkp RCLK     &tog MOUSE       &mo MS_FAST   &mo MS_SLOW   &trans
 // ╰─────────────┴─────────────┴─────────────╯  ╰─────────────┴─────────────┴─────────────╯           ╰─────────────┴─────────────┴─────────────╯  ╰─────────────┴─────────────┴─────────────╯
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
